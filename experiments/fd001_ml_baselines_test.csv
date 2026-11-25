@@ -1,0 +1,6 @@
+model,RMSE,MAE,NASA score,late predictions,late by more than 20,RMSE (truth capped),NASA score (truth capped)
+Predict the average,43.067,35.9,33629.2306,50.0,41.0,41.9418,33354.4718
+Linear Regression,17.9807,14.286,510.749,55.0,15.0,16.7674,461.5171
+Ridge Regression,17.8744,14.2324,497.3645,56.0,15.0,16.6423,448.0122
+Random Forest,13.871,10.2464,262.8892,61.0,6.0,12.7758,235.6884
+XGBoost,15.1065,10.8367,321.865,54.0,7.0,13.8907,281.9685

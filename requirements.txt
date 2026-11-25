@@ -1,0 +1,48 @@
+# Predictive Intelligence — pinned dependencies (Python 3.13)
+# Covers all phases. requirements-serve.txt is the smaller set needed to run the API and dashboard. Later phases add their own libraries (see docs/DECISIONS.md, D-003).
+#
+# PyTorch is the CPU-only build. Install it first from the PyTorch index:
+#   python -m pip install torch==2.15.0 --index-url https://download.pytorch.org/whl/cpu
+# then:  python -m pip install -r requirements.txt
+
+# Data handling
+numpy==2.5.4
+pandas==3.1.1
+
+# Visualisation
+matplotlib==3.11.2
+seaborn==0.13.2
+plotly==7.1.0
+
+# Statistics and traditional machine learning
+scipy==1.18.1
+scikit-learn==1.9.1
+xgboost==3.4.1
+joblib==1.6.0
+
+# Deep learning (CPU build, see note above)
+torch==2.15.0
+
+# Explainability
+shap==0.54.1
+
+# Notebooks
+jupyterlab==4.6.6
+ipykernel==7.4.0
+
+# Experiments and tuning
+optuna==5.0.0
+mlflow==3.18.0
+
+# Assistant, API and dashboard
+anthropic==2.8.0
+google-genai==3.3.0
+fastapi==0.162.5
+uvicorn==0.54.0
+streamlit==1.67.0
+httpx==0.28.1
+
+# Tests
+pytest==9.2.0
+reportlab==5.1.0
+pypdf==7.1.0

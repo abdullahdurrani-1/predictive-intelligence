@@ -1,0 +1,6 @@
+model,RMSE (all rows),± RMSE,MAE (all rows),RMSE (one point per engine),NASA score (100 engines),seconds
+Predict the average,41.6893,0.1224,36.9751,41.1221,26605.4771,0.2789
+Linear Regression,17.053,0.7495,13.6167,19.158,808.3907,0.786
+Ridge Regression,16.9276,0.6846,13.519,19.0294,794.9791,0.4915
+Random Forest,13.1207,1.0472,9.4598,15.2283,727.0529,127.8016
+XGBoost,13.3028,0.7396,9.4376,15.4313,602.0769,18.7396

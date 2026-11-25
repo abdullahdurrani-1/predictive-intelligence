@@ -1,0 +1,5 @@
+subset,conformal correction (cycles),test coverage (%),average width (cycles),failed sooner than range,lasted longer than range,"coverage, true RUL up to 30 (%)",engines with true RUL up to 30,test engines
+FD001,0.5418,95.0,44.3024,3.0,2.0,88.0,25.0,100.0
+FD002,-0.3813,91.5058,45.2284,17.0,5.0,83.6066,61.0,259.0
+FD003,0.0909,89.0,42.695,10.0,1.0,100.0,20.0,100.0
+FD004,-0.4411,87.0968,45.6299,22.0,10.0,75.4717,53.0,248.0

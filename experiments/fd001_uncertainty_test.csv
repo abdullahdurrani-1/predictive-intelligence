@@ -1,0 +1,4 @@
+method,"coverage, capped truth (%)","coverage, truth as given (%)",average width (cycles),truth below range (failed sooner),truth above range (lasted longer),ranges ending at the cap
+A. Constant margin,89.0,80.0,42.104,3.0,8.0,32.0
+"B1. Quantile band, uncorrected",95.0,84.0,43.502,3.0,2.0,49.0
+B2. Quantile band + conformal (CQR),95.0,84.0,44.311,3.0,2.0,51.0

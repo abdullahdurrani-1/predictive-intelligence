@@ -1,0 +1,5 @@
+model,validation RMSE (mean of 3 seeds),spread across seeds (sd),best,worst,weights,epochs to best (mean),training seconds (mean)
+MLP,11.1219,0.1918,10.9093,11.3741,115969.0,16.0,11.1627
+LSTM,10.8363,0.249,10.4975,11.089,59457.0,7.6667,106.8924
+GRU,10.373,0.2576,10.0983,10.7175,45121.0,12.6667,179.8886
+TCN,11.3731,0.1701,11.2306,11.6122,25409.0,10.0,150.6356

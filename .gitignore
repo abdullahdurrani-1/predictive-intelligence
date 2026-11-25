@@ -1,0 +1,31 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Raw and derived data are not versioned in Git (see docs/DECISIONS.md, D-002).
+# The checksum file and data/README.md are tracked so the data can be re-obtained and verified.
+/data/raw/
+/data/processed/
+
+# Generated at the project root. The leading slash matters: without it these
+# patterns would also hide the source folders src/models/ and src/monitoring/.
+/models/
+/mlruns/
+/mlflow.db
+/monitoring/
+/experiments/optuna_fd001.db
+
+# Secrets and local settings
+.env
+.env.*
+*.key
+.vscode/
+.claude/settings.local.json
+
+# OS noise
+Thumbs.db
+.DS_Store
+/data/sample_uploads/
